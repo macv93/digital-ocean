@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Hola name="manuel cañarte"/>
+    <img alt="manny" src="./assets/manny.png">
+    <p>© Manuel Cañarte {{formatTime(Date.now())}}</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Hola from './components/Hola.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Hola
+  },
+  methods: {
+    formatTime: function (time){
+      const currentTime = new Date(time)
+      return currentTime.toDateString();
+    }
   }
+
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
