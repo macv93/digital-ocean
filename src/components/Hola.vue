@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ name }}</h1>
+    <h1 class="text-purple-600">{{ name }}</h1>
     <pre>
       Hello there! 👀
       My name is Manuel but most people call me Manny,
@@ -11,7 +11,7 @@
       <strong>Web:</strong> HTML/CSS/JS, Laravel, Vue, React
       <strong>Languages:</strong> Fluent Spanish 🇨🇴 and French 🇨🇦
     </pre>
-    <p>I'm currently working at <a href="https://vehikl.com/">Vehikl</a> with some pretty cool peeps</p>
+    <p class="text-purple-600">I'm currently working at <a href="https://vehikl.com/">Vehikl</a> with some pretty cool peeps</p>
   </div>
 </template>
 
