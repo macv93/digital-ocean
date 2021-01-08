@@ -1,8 +1,7 @@
 <template>
-  <div id="app">
+  <div class="flex h-screen bg-gray-300" id="app">
     <Hola name="manuel cañarte"/>
-    <img alt="manny" src="./assets/manny.png">
-    <p>© Manuel Cañarte {{formatTime(Date.now())}}</p>
+
   </div>
 </template>
 
@@ -13,12 +12,6 @@ export default {
   name: 'App',
   components: {
     Hola
-  },
-  methods: {
-    formatTime: function (time){
-      const currentTime = new Date(time)
-      return currentTime.toDateString();
-    }
   }
 
 }
