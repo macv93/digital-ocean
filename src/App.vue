@@ -1,17 +1,17 @@
 <template>
-  <div class="flex h-screen bg-gray-300" id="app">
-    <Hola name="manuel cañarte"/>
+  <div class="flex h-screen bg-yellow-200" id="app">
+    <Nav name="manuel cañarte"/>
 
   </div>
 </template>
 
 <script>
-import Hola from './components/Hola.vue'
+import Nav from './components/Nav.vue'
 
 export default {
   name: 'App',
   components: {
-    Hola
+    Nav
   }
 
 }
