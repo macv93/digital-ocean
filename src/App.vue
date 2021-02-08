@@ -9,7 +9,7 @@
         <a href="https://www.linkedin.com/in/manuel-canarte/" target="_blank" class="underline hover:bg-red-500 px-3">Linkedin</a>
       </div>
       <img class="m-auto rounded-tl-full rounded-tr-full py-5" src="./assets/manny.png" alt="A picture of Manuel">
-      <p clas="text-">Hola! I'm Manuel, a software dev on the path to mastery</p>
+      <p class="text-center">Hola! I'm Manuel, a software dev on the path to mastery.</p>
     </div>
     <footer class="py-2 text-center text-white">️Cañarte © {{ new Date().getFullYear() }}</footer>
   </div>
