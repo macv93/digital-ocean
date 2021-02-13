@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col h-screen bg-black bg-opacity-75 font-mono" id="app">
     <div class="m-auto text-white">
-      <div class="inline-block align-middle rounded-full border-8 border-red-600">
-        <div class="font-bold text-center text-lg text-red-600 bg-white rounded-full ">Cañarte®</div>
+      <div class="flex items-center justify-center">
+        <div class="font-bold text-center text-lg text-red-600 bg-white rounded-full rounded-full border-8 border-red-600">Cañarte®</div>
       </div>
       <p class="text-center">Hola! I'm Manuel, a software dev on the path to mastery.</p>
       <img class="m-auto rounded-tl-full rounded-tr-full py-5" src="./assets/manny.png" alt="A picture of Manuel">
