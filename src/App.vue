@@ -7,7 +7,7 @@
         </div>
       </div>
       <p class="text-center my-3">Hola! 👋 I'm Manuel 🤓, a software dev 💻 on the path to mastery 🥋</p>
-      <img class="m-auto border-b-48 border-l-8 border-r-8 border-t-8 rounded-md" src="./assets/manny.png"
+      <img class="m-auto border-gray-300 border-b-48 border-l-8 border-r-8 border-t-8 rounded-md" src="./assets/manny.png"
            alt="A picture of Manuel">
       <div class="flex justify-between my-3">
         <a href="https://blog.manuelcanarte.com/" target="_blank" class="underline hover:bg-red-500 px-3 rounded-full">Blog</a>
