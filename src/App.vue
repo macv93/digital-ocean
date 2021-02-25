@@ -36,4 +36,16 @@ export default {
 </script>
 <style>
 
+div > div {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  25% {opacity: 0.25;}
+  50% {opacity: 0.50;}
+  75% {opacity: 0.75;}
+  100% {opacity: 1;}
+}
+
 </style>
